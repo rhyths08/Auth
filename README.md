@@ -1,5 +1,6 @@
 # Auth
 This project uses face recognition as a security for workplace. This app stores the identity of all the people who are working with the specific company/organization, and when they want to enter their workplace they first have to verify their identity, upon validation they will be allowed to enter, thus avoiding the entry of unauthorized people and maintaining the security of the workplace.
+
 ![alt text](https://github.com/rhyths08/Auth/blob/main/icon.png)
 # Demo
 [Video Demo]()
