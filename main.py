@@ -264,7 +264,6 @@ class PageFive(tk.Frame):
         img.grid(row=1, column=2, rowspan=4, sticky="nsew")
         tk.Label(self, text="Details of the users :", fg="#263942", font='Helvetica 15 bold').grid(row=0, column=0, padx=10, pady=10)
         mycursor.execute("SELECT * FROM security")
-        mydb.commit()
         i=1
         x=0
         for record in mycursor: 
