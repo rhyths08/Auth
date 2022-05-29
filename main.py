@@ -9,14 +9,12 @@ from getpass import getpass
 import mysql.connector
 
 mydb = mysql.connector.connect(
-        host="localhost",
-        user=input("Enter username: "),
-        password=getpass("Enter password: "),
-    )
+    host="localhost",
+    user=input("Enter username: "),
+    password=getpass("Enter password: "),
+    database = "Security"
+)
 mycursor = mydb.cursor()
-mycursor.execute("CREATE DATABASE Security")
-mydb.connect(database = "Security")
-mycursor.execute("CREATE TABLE Security(NAME VARCHAR(50), DATE_JOINING DATE, DEPARTMENT VARCHAR(50));")
 
 names = set()
 
@@ -265,16 +263,22 @@ class PageFive(tk.Frame):
         img.image = render
         img.grid(row=1, column=2, rowspan=4, sticky="nsew")
         tk.Label(self, text="Details of the users :", fg="#263942", font='Helvetica 15 bold').grid(row=0, column=0, padx=10, pady=10)
-
-        #Printing all the records in the database
         mycursor.execute("SELECT * FROM security")
+        mydb.commit()
         i=1
+        x=0
         for record in mycursor: 
             for j in range(len(record)):
                 e = tk.Entry(self, width=10, fg='black') 
                 e.grid(row=i, column=j) 
                 e.insert(END, record[j])
+                x=j
             i=i+1
+
+
+
+        button = tk.Button(self, text="Go to Home Page", command=lambda: self.controller.show_frame("StartPage"), bg="#ffffff", fg="#263942")
+        button.grid(row=i, column=x)
 
 
 
