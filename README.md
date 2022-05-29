@@ -22,5 +22,23 @@ After running this command, cmd will ask you to enter username and password of y
 python main.py
 ```
 After running this command, cmd will ask you to enter your username and password of your sql server. This will allow the app to access the database it created in your server.
-![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/1.png)
 
+![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/1.png)
+# APP GUI
+**Home Page**
+![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/2.png)
+**Add a User**
+This window will appear when you click on *Add User*  
+![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/3.png)
+After filling the details and clicking on *Capture*
+![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/4.png)
+Face Detection Process
+![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/5.png)
+**Verify a User**
+This window will appear when you click on *Verify a User* on homepage
+![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/7.png)
+![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/8.png)
+![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/9.png)
+**Details of a User**
+This window will appear when you click on *Details a User* on homepage
+![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/10.png)
