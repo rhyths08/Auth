@@ -16,11 +16,12 @@ pip install -r requirment.txt
 ```
 python database.py
 ```
-After running this command, cmd will ask you to enter your username and password of your sql server. This will allow the app to create a database in your sql server.
+After running this command, cmd will ask you to enter username and password of your MySql server. This will allow the app to create a database in your MySql server.
 3: Run The App
 ```
 python main.py
 ```
 After running this command, cmd will ask you to enter your username and password of your sql server. This will allow the app to access the database it created in your server.
+
 ![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/1.png)
 
