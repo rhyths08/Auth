@@ -269,17 +269,12 @@ class PageFive(tk.Frame):
         #Printing all the records in the database
         mycursor.execute("SELECT * FROM security")
         i=1
-        x=0
         for record in mycursor: 
             for j in range(len(record)):
                 e = tk.Entry(self, width=10, fg='black') 
                 e.grid(row=i, column=j) 
                 e.insert(END, record[j])
-                x=j
             i=i+1
-        
-        button = tk.Button(self, text="Go to Home Page", command=lambda: self.controller.show_frame("StartPage"), bg="#ffffff", fg="#263942")
-        button.grid(row=i,column=x)
 
 
 
