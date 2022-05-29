@@ -22,6 +22,5 @@ After running this command, cmd will ask you to enter your username and password
 python main.py
 ```
 After running this command, cmd will ask you to enter your username and password of your sql server. This will allow the app to access the database it created in your server.
-
 ![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/1.png)
 
