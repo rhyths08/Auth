@@ -26,9 +26,11 @@ After running this command, cmd will ask you to enter your username and password
 ![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/1.png)
 # APP GUI
 **Home Page**
+
 ![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/2.png)
 
 **Add a User**
+
 This window will appear when you click on *Add User*  
 ![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/3.png)
 
@@ -39,6 +41,7 @@ Face Detection Process
 ![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/5.png)
 
 **Verify a User**
+
 This window will appear when you click on *Verify a User* on homepage
 
 ![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/7.png)
@@ -46,5 +49,6 @@ This window will appear when you click on *Verify a User* on homepage
 ![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/9.png)
 
 **Details of a User**
+
 This window will appear when you click on *Details a User* on homepage
 ![alt text](https://github.com/rhyths08/Auth/blob/main/pictures/10.png)
