@@ -5,10 +5,10 @@ This project uses face recognition as a security for workplace. This app stores 
 [Video Demo]()
 # Installation Process
 1: Install the requirments.
-'''
+```
 $ pip install -r requirment.txt
-'''
+```
 2:Create Database
-'''
+```
 $ python database.py
-'''
+```
