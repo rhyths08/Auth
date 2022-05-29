@@ -3,7 +3,7 @@ This project uses face recognition as a security for workplace. This app stores 
 
 ![alt text](https://github.com/rhyths08/Auth/blob/main/icon.png)
 # Demo
-[Video Demo]()
+[Video Demo](https://youtu.be/Sj91LGhw6Qs)
 # System Requirments
 Following things are necessary for this project to work on your system:
 - Python 3.10
